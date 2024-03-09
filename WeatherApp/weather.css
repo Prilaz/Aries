@@ -1,17 +1,16 @@
 *{
-   padding: ;
-   margin: ;
+   padding: 0;
+   margin: 0;
    box-sizing: border-box;
 }
 
-boby{
+body{
 	background-color: #1e293b;
-   min-height: 100vh;
-   
-   width: 100%;
-   align-items: center;
-   justify-content: center;
-   font-family: " poppins ";
+    min-height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: " poppins ";
 
 }
 
@@ -89,14 +88,14 @@ boby{
 	align-items: center;
 	justify-content: space-between;
 	padding: 0 10px;
-	margin-top: 50px;s
+	margin-top: 50px;
 
 }
 
 .col{
-	display:flex;
-	align-items: center;
-	text-align: left;
+	display: flex ;
+	align-items: center ;
+	text-align: left ;
 	
 }
 
