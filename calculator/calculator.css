@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: rgb(19, 18, 18);
+}
+
+.cal{
+    background: #24263ba2;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: solid 1px #0a0a0a;
+    font-size: 24px;
+    box-shadow: 0px 2px 5px rgba(0,0, 0, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.cal #result{
+    background: white;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0px 2px 5px rgba(247, 239, 239, 0.3)inset;
+    border: 0px;
+    border-radius: 5px;
+    text-align: right;
+}
+
+.cal .buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top:15px ;
+    grid-gap: 5px;
+    width: 100%;
+    background: none;
+}
+
+.cal button{
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    box-shadow: 0px 2px 5px rgba(0,0, 0, 0.3);
+    cursor: pointer;
+    transition: backgroung-color 0.3s ease;
+}
+
+button:hover{
+    background-color: rgb(187, 185, 182);
+}
+
+.clear{
+    background: rgba(224, 39, 39, 0.623);
+}
+
+.equal{
+    background: rgb(32, 189, 32);
+    grid-row: span 3;
+}
+
+.operator{
+    background: rgba(73, 73, 240, 0.219);
+    
+}
