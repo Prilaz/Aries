@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+   <title>Form</title>
+   <link rel="stylesheet" href="registration.css">
+  </head>
+  <body>
+      <body>
+    <h1 id="title">Registration Form</h1>
+    <p id="description">Register here for join the group</p>
+  <fieldset>  
+    <form id="survey-form"> 
+      <label id='name-label'>Name</label>
+      <input id="name" type="text" placeholder="Enter your name" required><br>
+      <label id='email-label'>Email</label>
+      <input id="email" type="email" placeholder="Email" required><br>
+      <label id='number-label'>Age</label>
+      <input id="number" type="number" placeholder="Age" min='10' max='60'>
+      <!-- Dropdown Section-->
+      <label>What are you studing?</label><br>
+      <select id="dropdown">
+        <option>BBA</option>
+        <option>CSIT</option>
+        <option>BCA</option>
+        <option>BIM</option>
+        <option>BBM</option>
+      </select>
+<br>
+<!--Select section-->      
+<label>What is your Class Time?</label>
+       
+       <label for="select">
+         <input type="radio" class="select" id="select" name='select' value='morn'>Morning(6:30-11:15)
+       </label>
+       
+       <label>
+         <input type="radio" class="select" id="select" name='select'value='after'>     Afternoon(11:30-4:15)
+       </label>
+
+<!--Checkbox Section-->
+<label>Which job specification?
+</label>
+<label><input type="checkbox" id="check" class="frontend" value='frontend'>Front-end Projects
+  </label>
+<label><input type="checkbox" id="check" class="backend" value='backend'>Back-end Projects</label>
+<label><input type="checkbox" id="check" class="uiux" value='uiux'>UI-UX</label>
+<label><input type="checkbox" id="check" class="AI" value='AI'>Artificial Intelligence</label>
+
+<!--2nd Select section-->  
+<label>What type of program?</label>
+<label for="select"> <input type="radio" class="select" id="select" name='2select' value='physical'>Physical Program
+</label>
+       
+<label><input type="radio"class="select" id="select"name='2select'value='Online'>Online Program
+</label>
+<label>Do you have any suggestion?<br>
+  <textarea class="sugg">Suggestion....</textarea>
+  <br>
+</label>
+<button id="submit">Submit</button>
+    </form> 
+     </fieldset> 
+<footer>
+  <p>Register form</p>
+</footer>
+  
+</body></html>

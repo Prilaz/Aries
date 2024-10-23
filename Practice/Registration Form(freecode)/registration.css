@@ -1,0 +1,74 @@
+body{
+    margin:50;
+    background-color:rgb(94,109,140);
+    font:tahoma;
+    font-size:17px;
+    color:rgb(0,0,0);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1,p{
+    margin:1em auto;
+    text-align:center;
+  }
+  
+  form{
+    max-width:800px;
+    min-width:300px;
+    margin:0 auto;
+    width:10vw;
+  }
+  
+  fieldset{
+    background-color:rgb(60,69,89);
+    border:none;
+    
+    border-radius:2%;
+    width:40%;
+    
+  }
+  
+  input,textarea{
+    background-color:rgb(33,44,89);
+    border:none;
+    margin:9px;
+  }
+  
+  input,textarea,select{
+    margin:10px 0 0 0;
+    width:100%;
+    min-height:2em;
+  }
+  
+  label{
+    display:block;
+    margin:2rem 0 0.5rem 0;
+  }
+  
+  #select{
+    width:unset;
+    margin:0 0.5em ;
+    vertical-align:middle;
+  }
+  
+  #check{
+    width:unset;
+    margin:0 0.5em  ;
+    vertical-align:middle;
+  }
+  
+  .sugg{
+     height:60px
+  }
+  
+  #submit{
+    margin:10px 0;
+    width:100%;
+    height:35px
+  }
+  
+  footer{
+    margin-top:50px;
+  }
