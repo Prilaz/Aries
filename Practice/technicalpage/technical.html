@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Documentation</title>
+  <link rel="stylesheet" href="technical.css">
+</head>
+<body>
+
+  <!--nav part start-->
+  <nav class="side-bar" id="navbar">
+    <header id="top"> 
+      <h1>HTML Documentation</h1>
+    </header>
+    <ul class="list">
+      <li><a class="nav-link" href="#HTML_Introduction">HTML Introduction</a></li>
+      <li><a class="nav-link" href="#HTML_Basic">HTML Basic</a></li>
+      <li><a class="nav-link" href="#HTML_Heading">HTML Heading</a></li>
+      <li><a class="nav-link" href="#HTML_Paragraphs">HTML Paragraphs</a></li>
+      <li><a class="nav-link" href="#HTML_Links">HTML Links</a></li>
+      <li><a class="nav-link" href="#HTML_Images">HTML Images</a></li>
+      <li><a class="nav-link" href="#HTML_Color">HTML Color</a></li>
+      <li><a class="nav-link" href="#HTML_Elements">HTML Elements</a></li>
+      <li><a class="nav-link" href="#HTML_Attributes">HTML Attributes</a></li>
+      <li><a class="nav-link" href="#HTML_Comments">HTML Comments</a></li>
+      <li><a class="nav-link" href="#HTML_CSS">HTML CSS</a></li>
+      <li><a class="nav-link" href="#HTML_Table">HTML Table</a></li>
+      <li><a class="nav-link" href="#HTML_Lists">HTML Lists</a></li>
+      <li><a class="nav-link" href="#HTML_Styles">HTML Styles</a></li>
+      <li><a class="nav-link" href="#References">References</a></li>
+    </ul>
+  </nav>
+  <!--nav part ends-->
+
+  <!--main part start-->
+  <main class="mainpart" id="main-doc">
+    <section class="main-section" id="HTML_Introduction">
+      <header class="header">HTML Introduction</header>
+      <div class="context">
+        <p>HTML is the standard markup language for creating Web pages.</p>
+        <p>What is HTML?</p>
+        <ul class="text">
+          <li class="texts">HTML stands for Hyper Text Markup Language</li>
+          <li class="texts">HTML is the standard markup language for creating Web pages</li>
+          <li class="texts">HTML describes the structure of a Web page</li>
+          <li class="texts">HTML elements tell the browser how to display the content</li>
+          <li class="texts">HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+        </ul>
+        <div class="code">
+          <pre><code>
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Page Title&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;h1&gt;This is a Heading&lt;/h1&gt;
+&lt;p&gt;This is a paragraph.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+          </code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="main-section" id="HTML_Basic">
+      <header>HTML Basic</header>
+      <div class="context">
+        <h1>HTML Documents</h1>
+        <p>All HTML documents must start with a document type declaration: <code>&lt;!DOCTYPE html&gt;</code>.</p>
+        <p>The HTML document itself begins with <code>&lt;html&gt;</code> and ends with <code>&lt;/html&gt;</code>.</p>
+        <p>The visible part of the HTML document is between <code>&lt;body&gt;</code> and <code>&lt;/body&gt;</code>.</p>
+      </div>
+    </section>
+
+    <section class="main-section" id="HTML_Heading">
+      <header>HTML Heading</header>
+      <div class="context">
+        <p>HTML headings are titles or subtitles that you want to display on a webpage.</p>
+        <p>HTML headings are defined with the <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> tags.</p>
+        <p><code>&lt;h1&gt;</code> defines the most important heading. <code>&lt;h6&gt;</code> defines the least important heading.</p>
+        <div class="code">
+          <pre><code>
+&lt;h1&gt;Heading 1&lt;/h1&gt;
+&lt;h2&gt;Heading 2&lt;/h2&gt;
+&lt;h3&gt;Heading 3&lt;/h3&gt;
+&lt;h4&gt;Heading 4&lt;/h4&gt;
+&lt;h5&gt;Heading 5&lt;/h5&gt;
+&lt;h6&gt;Heading 6&lt;/h6&gt;
+          </code></pre>
+        </div>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+      </div>
+    </section>
+
+    <section class="main-section" id="HTML_Paragraphs">
+      <header>HTML Paragraphs</header>
+      <div class="context">
+        <p>A paragraph always starts on a new line, and is usually a block of text.</p>
+        <p>The HTML <code>&lt;p&gt;</code> element defines a paragraph.</p>
+        <p>A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph.</p>
+        <div class="code">
+          <pre><code>
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Page Title&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;h1&gt;This is a Heading&lt;/h1&gt;
+&lt;p&gt;This is a paragraph.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+          </code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="main-section" id="HTML_Links">
+      <header>HTML Links</header>
+      <div class="context">
+        <p>Links are found in nearly all web pages. Links allow users to click their way from page to page.</p>
+        <p>HTML links are hyperlinks.</p>
+        <p>You can click on a link and jump to another document.</p>
+        <p>When you move the mouse over a link, the mouse arrow will turn into a little hand.</p>
+        <div class="code">
+          <pre><code>
+&lt;a href="https://example.com"&gt;This is a link&lt;/a&gt;
+          </code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="main-section" id="HTML_Images">
+      <header>HTML Images</header>
+      <div class="context">
+        <p>Images can improve the design and the appearance of a web page.</p>
+        <p>The HTML <code>&lt;img&gt;</code> tag is used to embed an image in a web page.</p>
+        <p>Images are not technically inserted into a web page; images are linked to web pages. The <code>&lt;img&gt;</code> tag creates a holding space for the referenced image.</p>
+        <p>The <code>&lt;img&gt;</code> tag has two required attributes:</p>
+        <ul>
+          <li><code>src</code> - Specifies the path to the image</li>
+          <li><code>alt</code> - Specifies an alternate text for the image</li>
+        </ul>
+        <div class="code">
+          <pre><code>
+&lt;img src="path/to/image.jpg" alt="Description of image"&gt;
+          </code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="main-section" id="HTML_Color">
+      <header>HTML Color</header>
+      <div class="context">
+        <p>HTML colors are specified with predefined color names, or with RGB, HEX, HSL, RGBA, or HSLA values.</p>
+        <p>In HTML, a color can be specified by using a color name:</p>
+        <p>You can set the background color for HTML elements:</p>
+      </div>
+    </section>
+
+    <section class="main-section" id="HTML_Elements">
+      <header>HTML Elements</header>
+      <div class="context">
+        <p>HTML elements are the building blocks of HTML pages. They form the structure of the webpage by defining headings, paragraphs, lists, and other content.</p>
+      </div>
+    </section>
+
+    <section class="main-section" id="HTML_Attributes">
+      <header>HTML Attributes</header>
+      <div class="context">
+        <p>HTML attributes provide additional information about HTML elements. They are always specified in the opening tag and usually come in name-value pairs like this: <code>name="value"</code>.</p>
+      </div>
+    </section>
+
+    <section class="main-section" id="HTML_Comments">
+      <header>HTML Comments</header>
+      <div class="context">
+        <p>HTML comments are used to add notes or explanations within the HTML code. They are not displayed in the browser but can help developers understand the code.</p>
+        <div class="code">
+          <pre><code>
+&lt;!-- This is a comment --&gt;
+          </code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="main-section" id="HTML_CSS">
+      <header>HTML CSS</header>
+      <div class="context">
+        <p>CSS (Cascading Style Sheets) is used to style and lay out HTML elements. You can apply CSS rules directly within HTML or use external CSS files.</p>
+      </div>
+    </section>
+
+    <section class="main-section" id="HTML_Table">
+      <header>HTML Table</header>
+      <div class="context">
+        <p>HTML tables are used to present data in a tabular format. Tables are created using the <code>&lt;table&gt;</code> tag, with rows defined by <code>&lt;tr&gt;</code> tags and cells by <code>&lt;td&gt;</code> tags.</p>
+      </div>
+    </section>
+
+    <section class="main-section" id="HTML_Lists">
+      <header>HTML Lists</header>
+      <div class="context">
+        <p>HTML lists come in three types: ordered lists, unordered lists, and description lists. Ordered lists use <code>&lt;ol&gt;</code>, unordered lists use <code>&lt;ul&gt;</code>, and description lists use <code>&lt;dl&gt;</code>.</p>
+      </div>
+    </section>
+
+    <section class="main-section" id="HTML_Styles">
+      <header>HTML Styles</header>
+      <div class="context">
+        <p>HTML styles are applied to elements using the <code>style</code> attribute within HTML tags or via external CSS files.</p>
+      </div>
+    </section>
+
+    <section class="main-section" id="References">
+      <header>References</header>
+      <div class="context">
+        <p>For more information, refer to the <a href="https://www.w3.org/TR/html5/" target="_blank">W3C HTML5 Specification</a> or other HTML documentation resources.</p>
+      </div>
+    </section>
+  </main>
+  <!--main part ends-->
+
+</body>
+</html>

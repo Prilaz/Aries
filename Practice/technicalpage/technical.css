@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding:0;
+    
+  }
+  
+  html{
+    scroll-behavior:smooth;
+    font-family :'Open Sans', Arial, sans-serif;
+  }
+  
+  body{
+    background-color:#fff;
+    display:flex;
+    flex-direction: column;
+    min-height:100vh;
+    font-family : 'Open Sans', Arial, sans-serif;
+  }
+  
+  section{
+    margin-top:40px;
+  }
+   
+  .side-bar{
+     border:1px solid;
+     width:100%;
+  }
+  
+  .side-bar a {
+     text-decoration:none;
+     cursor:pointer;
+     font-size:18px;
+     transition:text-indent 0.3s ease-in-out;
+     color:#5d4f53;
+     padding:px;
+   }
+  
+  .side-bar a:hover {
+     text-indent:10px; 
+     font-weight:600;
+   }
+  
+  .nav-link{
+    list-style:none;
+    border-top:1px solid ;
+    margin:2px;
+    display:block;
+    padding:12px;
+    border-radius:5px;
+  }
+   
+  p{
+     margin:10px;
+     padding:5px;
+   }
+   
+  #top{
+    background-color:#4d4e50;
+    height:35px;
+    font-size:1rem; 
+    text-align: center;
+  }
+  
+  header{
+    font-size:1.8em;
+    color:black;
+    margin:10px;
+    text-align:center;
+    font-weight:500;
+  }
+  
+  .list{
+    background-color:#999;
+    margin:0px;
+    display:block;
+    padding:0px;
+    text-align:center;
+    height:180px;
+  }
+  
+  .side-bar .list{
+    overflow-y:scroll;
+  }
+  
+  .mainpart li{
+    margin:15px;
+    padding:5px;
+  }
+  
+  
+  
+  header{
+    font-size:2rem;
+    background-color:#999;
+    margin:0px;
+    padding:20px;
+  }
+  
+  .context{
+    font-size:1.1rem;
+    font-family:san-serif;
+    padding: 0 10px 10px 10px;
+    margin: 20px 10px;
+    border:1px solid;
+  }
+  
+  footer p{
+    padding:10px;
+    text-align:center;
+  }
+  
+  @media only screen and (min-width:800px){
+    body{
+      flex-direction:row;
+    }
+  
+    .side-bar{
+      width:300px;
+      position:fixed;
+      font-size:22px;
+    }
+    
+    .list{
+      height:100%;
+    }
+  
+  .side-bar .list{
+    overflow-y:scroll;
+  }
+  
+    
+  
+    main{
+      margin:0 20px;
+      margin-left:350px;
+    }
+  
+  }
+  
+  .mainpart:first-child{
+    background:green;
+  }
