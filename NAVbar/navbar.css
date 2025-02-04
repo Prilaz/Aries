@@ -1,0 +1,52 @@
+body{   
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    background:linear-gradient(30deg,#5c70b3,#0c2168);
+}
+
+
+
+.nav{
+    display:flex;
+    flex-direction: column;
+    width: 310px;
+    height:270px;
+    border: 1px solid #0f32a7;
+    background: linear-gradient(10deg,#5c70b3,#0f32a7);
+    border-radius: 2%;
+  
+}
+
+.box{
+    display: flex;
+    justify-content:center;
+    margin-top: 12%; 
+    }
+
+#click{
+    background:linear-gradient(10deg,#0f32a7,#5c70b3);    
+    font-size:30px;
+    text-decoration: none;
+    color:aliceblue;
+    text-align: center;    
+    margin:5px 5px 5px 5px ;
+    width:300px;
+    height:190px;
+    border-radius: 4%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top:8px;
+    
+}
+
+#click:hover{
+    color:#222;
+    text-indent:10px;
+    font-weight:600;
+}
+
+i{
+    margin-right:20px;
+}
+
+
